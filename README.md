@@ -31,3 +31,21 @@ This should create a production bundle for your extension, ready to be zipped an
 ## Submit to the webstores
 
 The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+
+## Start Hardhat local test node
+npx hardhat node
+npx hardhat --network localhost run scripts/deploy.js
+
+And wallet select 'Localhost 8545' network
+
+## references
+https://hardhat.org/tutorial/boilerplate-project
+https://reactrouter.com/en/main/router-components/memory-router
+https://charlypoly.com/publications/react-memory-router-pattern
+https://mui.com/material-ui/api/select/
+https://github.com/trustwallet/wallet-core
+https://github.com/trustwallet/wallet-core/blob/master/samples/node/index.ts
+https://merehead.com/blog/how-to-create-crypto-wallet-metamask/
+https://github.com/MoralisWeb3/moralis-blueprints
+https://github.com/atilatech/aqua-wallet/blob/master/src/utils/AccountUtils.ts
+https://atila.ca/blog/tomiwa/how-to-make-a-blockchain-crypto-wallet-like-metamask-with-chatgpt-react-typescript-and-ethersjs

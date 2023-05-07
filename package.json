@@ -1,8 +1,8 @@
 {
   "name": "lazyload-wallet",
-  "displayName": "Lazyload wallet",
+  "displayName": "Lazyload Wallet",
   "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
+  "description": "A basic Crypto Wallet Extention POC.",
   "author": "61922079@qq.com",
   "scripts": {
     "dev": "plasmo dev",
@@ -10,18 +10,36 @@
     "package": "plasmo package"
   },
   "dependencies": {
-    "plasmo": "0.70.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.12.3",
+    "@trustwallet/wallet-core": "^3.1.31",
+    "add": "^2.0.6",
+    "ethers": "^5.7.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.11.1"
   },
   "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4",
     "@types/chrome": "0.0.235",
     "@types/node": "18.16.3",
     "@types/react": "18.2.2",
     "@types/react-dom": "18.2.3",
+    "plasmo": "0.70.1",
     "prettier": "2.8.8",
     "typescript": "5.0.4",
-    "@plasmohq/prettier-plugin-sort-imports": "3.6.4"
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.7",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.4",
+    "chai": "^4.3.7",
+    "hardhat": "^2.14.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2"
   },
   "manifest": {
     "host_permissions": [

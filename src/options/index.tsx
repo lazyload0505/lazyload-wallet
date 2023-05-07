@@ -11,10 +11,10 @@ function IndexOptions() {
         padding: 16
       }}>
       <h1>
-        Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
+      Welcome to <a href="chrome-extension://ajiigbpbofnkaobdliioieaifacedian/tabs/home.html" target="_blank">{ process.env.PLASMO_PUBLIC_NAME }</a> Extension. 
       </h1>
       <input onChange={(e) => setData(e.target.value)} value={data} />
-      <footer>Crafted by @PlamoHQ</footer>{" "}
+      <footer>Crafted by @lazyloadbox</footer>
     </div>
   )
 }
